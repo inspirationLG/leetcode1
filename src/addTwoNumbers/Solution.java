@@ -16,7 +16,7 @@ public class Solution {
         ListNode cur = pre;
         int carry = 0;
         while (l1 != null || l2 != null) {
-            int x = l1 == null ? 0 : l1.val;
+            int x = l1 == null ? 0 : l1.val; //如果l1==null 则 x=0，否则取l1的值
             int y = l2 == null ? 0 : l2.val;
             int sum = x + y + carry;
 
