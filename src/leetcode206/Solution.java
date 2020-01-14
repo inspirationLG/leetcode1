@@ -1,6 +1,4 @@
-package reverseList;
-
-import java.util.List;
+package leetcode206;
 
 // * Definition for singly-linked list.
 class ListNode {

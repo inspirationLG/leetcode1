@@ -1,4 +1,4 @@
-package LCP1;
+package leetcodeLCP1;
 
 public class LCP1 {
     public int game(int[] guess, int[] answer) {
