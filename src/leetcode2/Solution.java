@@ -1,6 +1,6 @@
 package leetcode2;
 
-
+22
 class ListNode {
     int val;
     ListNode next;
