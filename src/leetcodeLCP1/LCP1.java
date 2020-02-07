@@ -11,3 +11,4 @@ public class LCP1 {
         return count;
     }
 }
+3243
