@@ -23,7 +23,7 @@ public class HelloWorld<T> {
         public static void main(String[] args) {
                 System.out.println("泛型类示例");
                 //泛型类示例
-                HelloWorld<String > helloWorld = new HelloWorld<String >();
+                HelloWorld<String> helloWorld = new HelloWorld<String>();
                 helloWorld.setValue("helloworld");
                 //IDE提供的类型检查只能设置String类型的对象，Long类型报错
                 System.out.println(helloWorld.getValue());
@@ -33,7 +33,7 @@ public class HelloWorld<T> {
                 //IDE提供的类型检查只能设置Long类型的对象，String类型报错
                 System.out.println(helloWorld1.getValue() + "\n");
 
-                System.out.println("泛型方法实力");
+                System.out.println("泛型方法实例");
                 printHelloWorld("hello world");
                 printHelloWorld(5211315 + "\n");
 
